@@ -1,0 +1,50 @@
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.dark-theme {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.movie_card_content{
+    padding: 1rem;
+}
+
+.movie_card{
+    border: 1px solid rgb(151, 156, 156);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;    
+    width: 500px;
+}
+
+.theme{
+    display: flex;
+    align-items:flex-end;
+}
+
+
+.movie_card img{
+    width: 200px;
+    height: 300px;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    text-align: left;
+    gap: 3rem;
+}
+
+.star{
+    color: yellow;
+}
